@@ -3,9 +3,11 @@ package com.fengniao.myandroidapplication;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.fengniao.mlibs.adapter.BaseRecyclerViewAdapter;
 import com.fengniao.myandroidapplication.list.BaseRecyclerViewActivity;
@@ -42,6 +44,10 @@ public class MainActivity extends BaseRecyclerViewActivity {
 
     @Override
     public View getView(ViewGroup parent, int viewType) {
+        if (viewType == 0) {
+            View view = LayoutInflater.from(this).inflate(R.layout.item_lsit, parent, false);
+            return view;
+        }
         return null;
     }
 
@@ -54,7 +60,5 @@ public class MainActivity extends BaseRecyclerViewActivity {
     public int getItemViewType(int position) {
         return 0;
     }
-
-
 
 }

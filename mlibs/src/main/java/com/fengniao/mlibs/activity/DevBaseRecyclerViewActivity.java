@@ -199,7 +199,6 @@ public abstract class DevBaseRecyclerViewActivity<T> extends DevBaseActivity imp
         mAdapter.notifyItemRemoved(position);
     }
 
-
     public void notifyItemRangeRemoved(int positionStart, int itemCount) {
         mAdapter.notifyItemRangeRemoved(positionStart, itemCount);
     }

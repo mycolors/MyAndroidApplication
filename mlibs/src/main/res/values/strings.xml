@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mLibs</string>
+    <string name="loading_data">正在努力加载，请稍候...</string>
+    <string name="empty_data">数据为空</string>
+</resources>
