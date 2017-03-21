@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.fengniao.myandroidapplication.BannerActivity">
+    tools:context="com.fengniao.myandroidapplication.banner.BannerActivity">
 
     <include layout="@layout/item_view_pager" />
 

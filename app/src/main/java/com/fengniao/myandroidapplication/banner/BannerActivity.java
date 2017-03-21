@@ -1,4 +1,4 @@
-package com.fengniao.myandroidapplication;
+package com.fengniao.myandroidapplication.banner;
 
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.fengniao.myandroidapplication.BaseActivity;
+import com.fengniao.myandroidapplication.R;
 
 import butterknife.BindView;
 
